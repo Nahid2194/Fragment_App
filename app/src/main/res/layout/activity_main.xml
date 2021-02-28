@@ -11,7 +11,7 @@
    <Button
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
-       android:text="Fragment1"
+       android:text="FragmentA"
        android:onClick="buttonFunction"
        android:textSize="34sp"
        android:id="@+id/fragment1"/>
@@ -20,13 +20,13 @@
         android:layout_height="wrap_content"
         android:onClick="buttonFunction"
         android:textSize="34sp"
-        android:text="Fragment2"
+        android:text="FragmentB"
         android:id="@+id/fragment2"/>
 
     <fragment
         android:id="@+id/fragmentAreaId"
         android:layout_width="match_parent"
-        android:layout_height="496dp">
+        android:layout_height="match_parent">
 
     </fragment>
 </LinearLayout>
